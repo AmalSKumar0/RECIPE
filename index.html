@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipie</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merienda:wght@300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="homePage.css">
+     <link rel="stylesheet" href="inventory.css">
+     <link rel="stylesheet" href="ItemDisplay.css">
+</head>
+<body>
+    <div class="content">
+        <div class="nav">
+        <nav class="NavBar">
+            <div class="logo"><a href="#"><img src="logo.png" alt="KADAI"></a></div>
+            <div class="links">
+                <a href="#"><span>ABOUT US</span></a>
+                <a href="#"><span>CONTACT US</span></a>
+                <a href="#" class="RecPie"><span>RECIPIES</span></a>
+                <a href="#" class="RecPie"><span>TRENDING</span></a>
+                <a href="#"><span>LOGIN</span></a>
+            </div>
+            <div class="mob">
+                <a href="#" class="RecPie"><span>RECIPIES</span></a>
+            </div>
+        </nav>
+    </div>
+    <div class="body">
+        <h1 class="K">K</h1><h1 class="ADAI" data-value="ADAI">ADAI</h1>
+       <div class="box"><span></span></div>
+       <button class="button">
+      <b>  GET STARTED</b>
+    </button>
+    <h5>Unlock Flavor with One Click: Your Gateway to Effortless Recipes!</h5>
+    </div></div>
+    <div class="NoDisplay">
+        <div class="search-container">
+            <input type="text" placeholder="Search..." class="search-input">
+            <button type="submit" class="search-button" onclick="search()">Search</button>
+        </div> 
+        <br>
+        
+        <div class="inventoryItems">
+            
+        </div>      
+    </div>
+     <div class="nova">   <!--  DisplayRes-->
+        
+    </div>
+    <div class="gradient">
+        <svg xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <filter id="goo">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"/>
+                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 18 -8" result="goo" />
+                    <feBlend in="SourceGraphic" in2="goo"/>
+                </filter>
+            </defs>
+        </svg>
+        <div class="container">
+        <div class="g1"></div>
+        <div class="g2"></div>
+        <div class="g3"></div>
+        <div class="g4"></div>
+        <div class="g5"></div>
+        <div class="interactive"></div>
+    </div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="./home.js"></script>
+</body>
+</html>

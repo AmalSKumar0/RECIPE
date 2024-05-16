@@ -1,0 +1,158 @@
+
+.DisplayRes{
+    top: 100px;
+    right: 0;
+    /* background-color: rgb(15, 84, 144); */
+    width: 100vw;
+    height: auto;
+    color: rgb(255, 255, 255);
+    position: absolute;
+}
+.title,.steps{
+    position: relative;
+    width: 90vw;
+    background-color: rgba(0, 0, 0, 0.434);
+    border-radius: 3vmin;
+    left: 5%;
+    right: 95%;
+}
+.title{
+  height: calc(200px + 10vw);
+}
+.steps{
+    top: 60px;
+}
+.title img{
+    position: relative;
+    top: 30px;
+    left: 2vw;
+    /* bottom: 90%; */
+    width: auto;
+    height: calc(140px + 10vw);
+    border-radius: 3vmin;
+    /* padding: 8vw 20vw; */
+}
+.title h1{
+
+    position: relative;
+    top: calc(-10px + -11vw);
+    font-size: 5vw;
+    left: 38vw;
+    color: aliceblue;
+    /* background-color: rgba(0, 0, 0, 0.018); */
+    width: 50vw;
+    /* height: 400px; */
+    /* text-align: center; */
+    align-items: center;
+}
+
+
+.DisplayRes .ingredients{
+    position: relative;
+    top: 30px;
+    width: 90vw;
+    background-color: rgba(0, 0, 0, 0.434);
+    border-radius: 3vmin;
+    left: 5%;
+    right: 95%;
+    padding: 10px 0px;
+}
+.ingredients h1,.steps h1{
+    position: relative;
+    left: 30%;
+    right: 70%;
+    font-size: 5vw;
+    padding: 20px 0px;
+    width: 20vw;
+}
+.imgBox{
+    position: relative;
+    top: calc(1vw + 10px);
+    left: 2vw;
+    /* bottom: 90%; */
+    width: auto;
+    height: calc(46px + 10vw);
+    border-radius: 3vmin;
+    /* padding: 8vw 20vw; */
+}
+.BoxItem{
+    position: relative;
+    width: 70vw;
+    height: calc(100px + 10vw);
+    background-color: rgba(0, 0, 0, 0.434);
+    border-radius: 3vmin;
+    left: 15%;
+    right: 85%;
+}
+.BoxItem h1{
+    position: relative;
+    top: calc(20px + -8vw);
+    font-size: 3vw;
+    left: calc(30% + 90px);
+    color: rgb(255, 255, 255);
+    width: 30vw;
+}
+.BoxItem {
+    border: 0cap;
+    display: inline-block;
+    text-align: left;
+    cursor: pointer; 
+}
+
+.BoxItem:focus {
+    outline: none; 
+}
+.steps span {
+    display: block;
+    position: relative;
+    width: 90%; /* Ensure it takes the full width of the container */
+    font-size: 23px;
+    padding: 10px 20px; /* Add padding for spacing */
+    margin: 10px 0; /* Add margin for spacing between steps */
+    line-height: 1.6; /* Adjust line height for readability */
+    font-family: 'Arial', sans-serif; /* Use a more readable font */
+    color: #333; /* Dark gray color for text */
+    background: #fff;
+    border-radius: 8px; /* Rounded corners for elegance */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    left: 3%;
+    right: 98%;
+}
+
+/* Optional: Style for step number */
+.steps span::before {
+    content: attr(data-step); /* Use a data attribute for the step number */
+    font-weight: bold;
+    margin-right: 10px;
+    color: #555; /* Slightly lighter color for the step number */
+}
+
+.list{
+    position: relative;
+    background-color: white;
+    color: #333;
+    font-size: 23px;
+    padding: 10px 20px; /* Add padding for spacing */
+    margin: 10px 0; /* Add margin for spacing between steps */
+    line-height: 1.6; /* Adjust line height for readability */
+    font-family: 'Arial', sans-serif; /* Use a more readable font */
+    border-radius: 8px;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    left: 3%;
+    right: 98%;
+}
+.list span::before {
+    content: attr(data-step); /* Use a data attribute for the step number */
+    font-weight: bold;
+    margin-right: 10px;
+    color: #555; /* Slightly lighter color for the step number */
+}
+.error{
+    position: relative;
+    color: white;
+    left: 43%;
+    right: 57%;
+    top:20px;
+    font-size: 4vw;
+}
