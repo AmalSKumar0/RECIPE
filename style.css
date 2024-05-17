@@ -2,6 +2,19 @@
     margin: 0%;
     padding: 0%;
   }
+/* Prevent text selection */
+body {
+    user-select: none;
+}
+
+/* For specific elements */
+.no-select {
+    user-select: none;
+}
+/* Prevent dragging of all images */
+img {
+    pointer-events: none;
+}
   bla{color:rgb(74, 63, 89);}
   :root{
     --color-bg: rgb(34, 30, 34);
